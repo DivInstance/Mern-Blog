@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./../styles/blog.css";
-import arrow from "./../imgvid/arrow.svg";
+//import arrow from "./../imgvid/arrow.svg";
 import { FaTwitter } from "react-icons/fa";
 import { BsFacebook } from "react-icons/bs";
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -163,7 +163,7 @@ export default function Blog() {
           <div className="toop">
             <div>Blog </div>
             <div style={{ paddingLeft: "0.2rem", paddingRight: "0.2rem" }}>
-              <img src={arrow} alt="arrow" />
+              //<img src={arrow} alt="arrow" />
             </div>
             <div>{currentBlog?.title}</div>
           </div>

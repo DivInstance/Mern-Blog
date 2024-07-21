@@ -1,9 +1,9 @@
 import React, { useState} from 'react';
 import './../styles/navstyle.css';
 import { Link } from 'react-router-dom';
-import HamburgerMenuOpen from './../imgvid/nav/hamburger-lg.svg';
+//import HamburgerMenuOpen from './../imgvid/nav/hamburger-lg.svg';
 import Logo from './../imgvid/nav/logo.png';
-import HamburgerMenuClose from './../imgvid/nav/close-fill.svg';
+//import HamburgerMenuClose from './../imgvid/nav/close-fill.svg';
 
 function NavBar() {
   const [click, setClick] = useState(false);
@@ -54,11 +54,11 @@ function NavBar() {
               </li>
             </ul>
           <div className="nav-icon" onClick={handleClick}>
-            {click ? (
+            /*{click ? (
                 <img src={HamburgerMenuClose} alt="close" style={{width:"100%"} } />
             ) : (
               <img src={HamburgerMenuOpen} alt="open" style={{width:"100%"}} />
-            )}
+            )}*/
           </div>
         </div>
       </nav>

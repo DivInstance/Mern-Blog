@@ -1,0 +1,81 @@
+var _path, _path2, _path3, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgBase(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 1649,
+    height: 151,
+    viewBox: "0 0 1649 151",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    className: "svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M0 28.5517L103.265 12.9016C159.603 4.36336 216.986 5.51806 272.934 16.3158L376.718 36.3454C444.82 49.4885 514.911 48.3193 582.537 32.912L610.153 26.6201C678.797 10.9808 749.97 10.0142 819.013 23.7835L922.928 44.5073C962.127 52.3248 1002.12 55.4137 1042.06 53.7079L1230.45 45.6604L1373.2 19.5931C1433.64 8.5566 1495.59 8.75305 1555.96 20.1726L1649 37.7736V128.276L0 132V28.5517Z",
+    fill: "url(#paint0_linear_15682_3752)",
+    fillOpacity: 0.4
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M0 58.7716L113.298 38.0422C181.665 25.5336 251.902 27.596 319.417 44.0945L354.404 52.6441C415.193 67.499 478.811 66.1888 538.938 48.8434C599.961 31.2393 664.565 30.1568 726.144 45.7067L748.194 51.2748C810.64 67.0435 876.065 66.7129 938.347 50.3139C992.702 36.0024 1049.55 33.9035 1104.81 44.1679L1139.85 50.6758C1206.62 63.0767 1275.33 60.0145 1340.73 41.7242C1399.05 25.4135 1460.09 21.1923 1520.1 29.3197L1649 46.7778V151H0V58.7716Z",
+    fill: "url(#paint1_linear_15682_3752)"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M0 27L139.859 47.944C192.104 55.7677 245.258 55.2625 297.345 46.4471L347.066 38.032C390.334 30.7092 434.377 29.1142 478.061 33.2883L574.316 42.4855C606.665 45.5765 639.239 45.5064 671.574 42.2763L761.319 33.3114C803.271 29.1206 845.585 30.2528 887.253 36.681L955.825 47.2598C1006.91 55.1407 1058.91 55.0527 1109.97 46.9989L1179.48 36.0332C1217.53 30.0312 1256.15 28.4464 1294.56 31.3104L1405.23 39.5612C1429.91 41.4013 1454.69 41.4064 1479.38 39.5764L1649 27V149H0V27Z",
+    fill: "url(#paint2_linear_15682_3752)",
+    fillOpacity: 0.7
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_15682_3752",
+    x1: -86.5181,
+    y1: 64.9655,
+    x2: 2002.52,
+    y2: 64.9655,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#E1740F"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.5,
+    stopColor: "#FD7A33"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#FF955C"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_15682_3752",
+    x1: 0,
+    y1: 84,
+    x2: 1649,
+    y2: 84,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#E1740F"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.5,
+    stopColor: "#FD7A33"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#FF955C"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint2_linear_15682_3752",
+    x1: 0,
+    y1: 88,
+    x2: 1649,
+    y2: 88,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FD7A33"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.5,
+    stopColor: "#FD7A33"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#FF955C"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgBase);
+export default __webpack_public_path__ + "static/media/base.3f5339217a654a163327574449f303a4.svg";
+export { ForwardRef as ReactComponent };

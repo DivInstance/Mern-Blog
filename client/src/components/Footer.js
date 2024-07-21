@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import './../styles/footer.css';
-import base from './../imgvid/base.svg';
-import basem from './../imgvid/basem.svg';
+//import base from './../imgvid/base.svg';
+//import basem from './../imgvid/basem.svg';
 import { FaSquareInstagram } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaTwitter } from "react-icons/fa6";
@@ -91,7 +91,7 @@ const Footer = () => {
 
       <div className="des">
         <div className="position-relative">
-          <img src={base} className='footersvg' alt="Footer SVG" />
+          //<img src={base} className='footersvg' alt="Footer SVG" />
           <div className="centered-text">
             <span className="design">
               © 2024 Arroz Technology. All rights reserved
@@ -102,7 +102,7 @@ const Footer = () => {
 
     <div className="desa">
         <div className="position-relativem">
-          <img src={basem} className='footersvgm' alt="Footer SVG" />
+          //<img src={basem} className='footersvgm' alt="Footer SVG" />
           <div className="centered-textm">
             <span className="designm">
               © 2024 Arroz Technology. All rights reserved
